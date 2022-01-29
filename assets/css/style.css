@@ -1,0 +1,72 @@
+:root {
+    --lav: #8576A6;
+    --vio: #2B2840;
+    --mar: #8C2E62; 
+    --dar: #0D0D0D;
+    --lilav: #cbb3fc;
+    --bilav: #e6dcfc;
+  }
+
+body {
+    background-color: var(--vio);
+}
+
+/* Stlying the nav bar*/
+.navbar {
+    height: 150px!important;
+}
+
+/* Styling headers and general text*/
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: var(--bilav);
+}
+
+h3,
+h5 {
+    color: var(--bilav);
+}
+
+p {
+    color: var(--bilav);
+}
+
+/*Styling weather cards*/
+
+#today-weather {
+    background-color: var(--lav)!important;
+}
+
+/* Styling the results*/
+
+#searchResults {
+    background-color: var(--lav)!important;
+}
+
+/* Styling Buttons */
+#search-button {
+    color: #fff;
+    outline: none;
+    background: var(--vio);
+    border-color: var(--vio);
+}
+
+#clear-history {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 30px;
+    outline: none;
+    border-color: var(--vio);
+    border-radius: 5px;
+    background: var(--vio);
+}
+
+#clear-history:hover,
+#search-button:hover {
+  color: var(--vio);
+  background-color: var(--lav);
+  transition: all 0.3s ease-in-out;
+}
